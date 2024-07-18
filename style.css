@@ -1,0 +1,94 @@
+    h1 {
+        text-align: center;
+    }
+
+    body {
+        background-image: url("pastel-purple-blur-gradation-wallpaper-preview.jpg");
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        background-color: rgb(223, 240, 255);
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding: 0;
+    }
+
+
+    .box {
+        height: 230px;
+        width: 300px;
+        border: none;
+        margin: 50px;
+        justify-content: center;
+        text-align: center;
+
+        box-shadow: 5px 15px 5px rgb(184, 170, 180);
+        background-color: rgb(199, 139, 180);
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .box1 {
+        padding: 10px;
+        line-height: 23px;
+        top: -30px;
+        left: 38px;
+        font-size: 18px;
+    }
+
+    .box2 {
+        padding: 10px;
+        line-height: 23px;
+        font-size: 18px;
+        top: -30px;
+        right: 10px;
+    }
+
+    .box3 {
+        padding: 10px;
+        line-height: 23px;
+        font-size: 18px;
+        top: -75px;
+        left: 38px;
+    }
+
+    .box4 {
+        padding: 10px;
+        line-height: 23px;
+        font-size: 18px;
+        top: -75px;
+        right: 10px;
+    }
+
+    ul {
+        font-size: 13px;
+        text-align: start;
+        list-style: inside;
+    }
+
+    .button {
+        background-color: rgb(118, 43, 121);
+        color: white;
+        border-radius: 5px;
+        padding: 7px 7px 7px 7px;
+        font-size: 9px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: rgb(249, 235, 249);
+    }
